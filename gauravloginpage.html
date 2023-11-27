@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="gauravloginpage.css">
+</head>
+<body>
+    <div class="container">
+        <h1>"THE CAR'S WORLD"</h1>
+        <h4>Kindly fill your login credential's correctly. </h4>
+        <form id="login-form" method="post" action="login.php">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <div class="form-group">
+                <input type="submit" id="submit" name="submit" value="Log In" class="button">
+            </div>
+        </form>
+        <div id="message" class="message"></div>
+    </div>
+   
+</body>
+</html>

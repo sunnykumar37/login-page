@@ -1,0 +1,70 @@
+body {
+    background-image:url("https://avisbudgetgroup.com/wp-content/uploads/2018/10/Brand-Scroll-Payless1_800x600.jpg");
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 400px;
+    margin: 100px auto;
+    border: 1px solid gray;
+    padding: 20px;
+    background:transparent;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h4 {
+    color: #333;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    
+}
+
+input:focus {
+    border-color: #000000;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #0a0a23;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align:center;
+}
+
+.button:hover {
+    background-color: grey;
+}
+
+.message {
+    text-align: center;
+    color: #ff0000;
+    font-weight: bold;
+}
